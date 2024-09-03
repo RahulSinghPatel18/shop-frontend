@@ -1,0 +1,728 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: gilroy;
+}
+html,body{
+    width: 100%;
+      background:#F1F2F4;
+}
+body{
+  overflow-x: hidden;
+  background-color: #F7F7EE;
+}
+#main{
+     height: 100%;
+    width: 100%;
+    background:#F1F2F4;
+    
+}
+#page1{
+      height: 16.5vh;
+    width: 100%;
+}
+.nav{
+  height:15.4vh;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: #ffffff;
+  margin-top: .1px;
+}
+#nav1{
+    height:30px;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: #d0011d;
+}
+#nav1 h1{
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 0.8px;
+}
+#nav1 h1:hover{
+    text-decoration: underline;
+}
+
+#nav2{
+  height: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 17px;
+    background-color: #ffffff;
+}
+
+#nav2 h1{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0.8px;
+cursor: pointer;
+text-decoration: none;
+}
+#nav2 h1:hover{
+    color: #000;
+}
+#nav2 h1 i{
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;  
+}
+#nav2 h1 i:hover{
+  background-color:#397dfb;
+
+}
+
+#nav3{
+     height: 55px;
+    width: 100%;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-left: -11px;
+   background-color: #ffffff;
+   border-bottom: 1px solid rgba(58, 57, 57, 0.37);
+}
+#nav3 h1{
+    margin-top: -20px;
+    font-size: 35px;
+    font-family:monospace;
+    color: rgb(69, 42, 242);
+    letter-spacing: -2px;
+    font-weight: 900;
+}
+
+#nav3 h1 span{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8t-BqcvBsxnr2eKSQNdHs8egtY7K_sDDYVA&usqp=CAU);
+background-size: cover;
+background-position: center;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+  font-size: 32px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nav3 h1 img{
+    height: 60px;
+    width: 60px;
+    
+}
+
+#nav3-co{
+    display: flex;
+gap: 20px;
+}
+
+#nav3 input{
+  border: 1px solid rgba(0, 0, 0, 0.302);
+   font-size: 14px;
+   margin-left: 40px;
+   padding-left: 10px;
+   background-color: rgba(185, 184, 184, 0.03);;
+   padding-top: 8.9px;
+   padding-bottom: 8.9px;
+   padding-right: 150px;
+   border-radius: 8px;
+   font-weight: 300;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+  box-shadow: rgba(203, 202, 202, 0.089) 0px 1px 3px;
+}
+#nav3-co  img{
+    height: 37px;
+    width: 37px;
+    cursor: pointer;   
+}
+#nav3-co button{
+  padding: 0px 15px;
+  background-color:#3564ffef;
+  border: none;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  border-radius: 7px;
+}
+#nav3-co button:hover{
+  scale: 1.03;
+  transition: all ease 0.9;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color:#3564ffed;
+}
+
+
+
+
+
+/* menuuuuuuuu */
+
+#page2{
+    width: 100%;
+    height: 80vh;
+    padding: 0px 13px;
+   margin-top: -6px;
+  }
+.pic-menu1 {
+    width: 80px;
+    height: 80px;
+   position: relative;
+  }
+   .pic-menu1 img{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+  top: -120px;
+  left: -12px;
+  background-size: cover;
+  background-position: center;
+  }
+  .pic-menu2 {
+    width: 80px;
+    height: 80px;
+   position: relative;
+  }
+   .pic-menu2 img{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+  top: -120px;
+  left: 1px;
+  background-size: cover;
+  background-position: center;
+  }
+  .pic-menu3 {
+    width: 80px;
+    height: 80px;
+   position: relative;
+  }
+   .pic-menu3 img{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+  top: -120px;
+  left: 15px;
+  background-size: cover;
+  background-position: center;
+  }
+  .pic-menu4 {
+    width: 80px;
+    height: 80px;
+   position: relative;
+  }
+   .pic-menu4 img{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+  top: -120px;
+  left: 30px;
+  background-size: cover;
+  background-position: center;
+  }
+  .pic-menu5{
+    width: 80px;
+    height: 80px;
+   position: relative;
+  }
+   .pic-menu5 img{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+  top: -120px;
+  left: -15px;
+  background-size: cover;
+  background-position: center;
+  }
+  .pic-menu6{
+    width: 80px;
+    height: 80px;
+   position: relative;
+  }
+   .pic-menu6 img{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+  top: -120px;
+  left: 15px;
+  background-size: cover;
+  background-position: center;
+  }
+  .pic-menu7{
+    width: 80px;
+    height: 80px;
+   position: relative;
+  }
+   .pic-menu7 img{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+  top: -120px;
+  left: -15px;
+  background-size: cover;
+  background-position: center;
+  }
+
+.menu {
+    /* border: 0.5px solid rgba(128, 128, 128, 0.376); */
+   height: 20vh;
+   width: 100%;
+   margin-top: 22px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .menu-list {
+    list-style: none;
+   color: black;
+   display: flex;
+   justify-content: center;
+   gap: 60px;
+  }
+  
+  .menu-list li {
+    padding: 105px 0px;
+    
+  }
+   
+  .menu-list li a {
+    text-decoration: none;
+    font-size: 15.3px;
+    font-weight: 450;
+    letter-spacing: 1px;
+     color: rgb(29, 28, 28);
+     cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .menu-list li a:hover{
+    color: #397dfb;
+    /* margin-left: -10px; */
+    
+}
+
+  .dropdown-content {
+    /* border: 0.5px solid rgba(128, 128, 128, 0.376); */
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    list-style: none;
+    color: #000;
+    width: 16%;
+    height: 40%;
+    padding: 30px 0 0 0px;
+    margin-top: -65px;
+    margin-left: 5px;
+    border-radius: 10px;
+    z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  }
+  .dropdown-content li a {
+    color: #000000b4;
+    font-size: 13.2px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .dropdown-content li a:hover{
+     text-decoration: underline;
+     color: #000000ac;
+  }
+  .dropdown-content li {
+    padding: 5px 0px  20px 45px;
+
+  }
+  .dropdown-content  :hover{
+    background-color: #f0f5ff;
+  }
+  .dropdown:hover .dropdown-content {
+    display:block;
+     color: #00000097;
+  }
+  
+
+  
+/* swiperrrr */
+
+.swiper {
+  border-radius: 2px;
+    width: 100%;
+    height: 72.4%;
+    margin-top: 15px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff;
+   
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+   
+  }
+
+  .swiper-button-next{
+    cursor: pointer;
+    padding: 38px 20px;
+    border-radius: 6px;
+    background-color:rgba(0, 0, 0, 0.124);
+  }
+  .swiper-button-prev{
+    cursor: pointer;
+    padding: 38px 20px;
+    border-radius: 6px;
+    background-color:rgba(0, 0, 0, 0.124);
+  }
+
+
+  /* Page3  */
+ #page3{
+  width: 100%;
+height: 171.6vh;
+padding: 0 13px;
+
+ }
+ .p3more{
+  height: 55vh;
+  margin-top: 15px;
+  background-color: #ffffff;
+ }
+ .p3-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+.p3-text h1{
+  padding: 25px 5px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .p3-text i{
+  font-size: 25px;
+  margin-right: 50px;
+  padding: 5px;
+  background-color: #397dfb;
+  border-radius: 50%;
+  cursor: pointer;
+ }
+  .p3-text i:hover{
+    scale: 1.1;
+    color: white;
+    transition: all ease 0.5s;
+    background-color: rgb(245, 35, 105);
+  }
+ #p3content{
+   width: 100%;
+height: 100vh;
+display: flex;
+position: relative;
+ }
+
+.p3left{
+width: 20%;
+height: 40%;
+/* background-color: #ccf5f6; */
+cursor: pointer;
+padding: 8px;
+border: 1px solid black;
+border-radius: 8px;
+background-color: #e7f3fb;
+}
+.p3left img{
+  width: 100%;
+height:100%;
+border-radius: 3px;
+object-fit: cover;
+}
+
+.p3right{
+width: 20%;
+height: 40%;
+/* background-color: #d3fdfc; */
+cursor: pointer;
+padding: 8px;
+border: 1px solid black;
+border-radius: 5px;
+background-color:  #e7f3fb;
+}
+.p3right img{
+  width: 100%;
+height:100%;
+border-radius: 3px;
+object-fit: cover;
+}
+
+
+ #scroll{
+  width: 80%;
+  height: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#scroll::-webkit-scrollbar{
+  display:none;
+}
+#scroll #container{
+  display: inline-block;
+}
+
+#container{
+  width: 100%;
+  height: 100%;
+  padding: 15.5px 0px 0px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elem{
+  overflow: hidden;
+  cursor: pointer;
+  height: 255px;
+  width: 205px;
+  padding: 5px 5px 5px 15px ;
+  border-radius: 5px;
+  margin-right: 15px;
+border: 1px solid black;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.elem img:hover{
+  scale: 1.06;
+}
+.elem img{
+  margin-top: 5px;
+  transition: all ease 0.4s;
+  width: 165px;
+  height: 175px;
+  object-fit: cover;
+}
+
+.elem h3{
+  margin: 8px;
+  text-align: center;
+  margin-left: -12px;
+  font-weight: 300;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.elem h4{
+  margin: 8px;
+  text-align: center;
+  margin-left: -12px;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.elem h4 span{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: rgb(37, 112, 37);
+}
+/* footer part */
+
+footer{
+  height: 50vh;
+  padding: 0px 13px;
+  width: 100%;
+}
+ 
+#page5{
+    width: 100%;
+    height: 90%;
+    padding: 60px 0 0 13%;
+    position: relative;
+    background-color: #0000002d;
+    display: flex;
+    justify-content: space-around;
+    background:#212121;
+
+}
+#page5 .one{
+    width: 20%;
+    height: 100%;
+}
+.one h3{
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.one h5{
+  cursor: pointer;
+    color: white;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  
+  padding: 5px 4px 4px 1px;
+}
+#page5 h4{
+  cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+
+}
+
+
+#f2{
+    width: 100%;
+    height: 20%;
+    padding: 2% 10% 0% 10%;
+    position: relative;
+    background-color:#212121;
+    }
+    #f1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color:#212121;
+    }
+    
+    #f1 i{
+      font-size: 25px;
+    color: #397dfb;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 50%;
+    }
+    
+    #f2 h5{
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 2px solid rgb(255, 255, 255);
+   padding-bottom: 10px;
+}
+
+
+#sm-banner {
+  display: flex;
+  height: 52vh;
+  width: 100%;
+  padding: 0 13px;
+  gap: 15px;
+}
+#sm-banner .banner-box{
+  position: relative;
+  width: 50%;
+  height: 50vh;
+background-image: url(https://img.freepik.com/premium-vector/spring-fashion-sale-banner-design-template_2239-1180.jpg);
+}
+
+ .banner-box2{
+  position: relative;
+  width: 50%;
+  height: 50vh;
+  background-size: cover;
+  background-position: 0% 100%;
+  background-image: url(https://png.pngtree.com/png-clipart/20210620/original/pngtree-pink-creative-cosmetics-promotional-banner-template-png-image_6430676.jpg);
+
+}
+#sm-banner h2{
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+}
+#sm-banner span{
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+#sm-banner h4{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+ .btn{ 
+  position: absolute;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color:rgb(252, 250, 250);
+  background-color:transparent;
+cursor: pointer;
+border: 1px solid #397dfb;
+outline: none;
+transition: 0.2s;
+border-radius: 8px;
+cursor: pointer;
+color:#397dfb;
+margin-left: 80px;
+margin-top: 220px;
+
+}
+
+
+.banner-box .btn:hover {
+  transition:all ease 0.5s;
+  background-color: #2b2c2c;
+  color: white;
+  scale: 1.02;
+  border: 1px solid rgb(106, 145, 236);
+}
+.banner-box2 .btn:hover {
+  transition:all ease 0.5s;
+  background-color: #2b2c2c;
+  color: white;
+  scale: 1.06;
+  border: 1px solid rgb(106, 145, 236);
+}
+
+
+/* swiper 2 */
+
+
+.swiper22 {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide2 {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide2 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+#page9{
+  width: 100%;
+  height: 100%;
+}
